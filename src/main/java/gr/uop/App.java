@@ -45,7 +45,7 @@ public class App extends Application {
 
         VBox buttonPane = new VBox(10, btn1, btn2, btn3);
         buttonPane.setAlignment(Pos.TOP_CENTER);
-        buttonPane.setStyle(" -fx-padding: 10px;");
+        buttonPane.setStyle(" -fx-padding: 11px;");
 
         HBox mainContent = new HBox(10, gridSettingsPane, gridDimensionsPane, buttonPane);
         mainContent.setStyle("-fx-padding: 10px;");
